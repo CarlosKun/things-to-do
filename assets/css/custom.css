@@ -1,0 +1,50 @@
+/**
+ * Created by Carlos on 23/07/2017.
+ */
+.advantages{
+    height: 60px;
+    display: inline-block;
+    padding: 0 !important;
+}
+.advantages .advantage{
+    height: 60px;
+    display: inline-block;
+    padding: 10px;
+    border: solid 1px lightgrey;
+}
+
+.advantages .advantage:first-child{;
+    font-size: 22px;
+}
+
+.advantages .advantage i{
+    color: #aeea00;
+}
+
+.advantages .advantage span{
+    display: block;
+    font-size: 12px;
+    color: darkgrey;
+    padding-left: 15px;
+}
+.attractions .attraction{
+    padding: 2px 5px;
+}
+.attractions .attraction .img-destination-wrapper{
+    position: relative;
+}
+.attractions .attraction .img-destination-wrapper .opacity{
+    background-color: transparent !important;
+}
+.attractions .attraction .img-destination-wrapper .opacity span{
+    position: absolute;
+    bottom: 20px;
+    left: 15px;
+    color: white;
+    padding: 3px 10px;
+    font-size: 17px;
+    background-color: rgba(0,0,0,.5);
+}
+.attractions .attraction .img-destination-wrapper img{
+    width: 100%;
+}
