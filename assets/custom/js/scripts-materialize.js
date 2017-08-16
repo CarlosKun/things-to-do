@@ -8,4 +8,8 @@ $(document).ready(function(){
         indicators: false,
         height: '75vh'
     });
+
+    $('.carousel').carousel();
+
+
 });

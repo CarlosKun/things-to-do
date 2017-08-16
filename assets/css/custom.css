@@ -48,3 +48,20 @@
 .attractions .attraction .img-destination-wrapper img{
     width: 100%;
 }
+
+/* ********************** */
+/*      TESTIMONIALS      */
+/* ********************** */
+
+.testimonial-card {
+    text-align: center;
+}
+.testimonial-card img{
+    width: 200px;
+}
+.testimonial-card .testimonial-stars{
+    color: #ffc203;
+}
+.testimonial-card .testimonial span{
+    font-weight: bold;
+}

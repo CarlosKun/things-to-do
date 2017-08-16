@@ -1,0 +1,11 @@
+.things-side-nav {
+  padding: 10px;
+}
+.things-side-nav a {
+  color: #000;
+}
+.things-side-nav a li {
+  width: 100%;
+  text-align: left;
+  padding: 10px;
+}
