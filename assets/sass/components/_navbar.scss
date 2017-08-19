@@ -15,7 +15,7 @@ nav {
 
   color: $navbar-font-color;
   @extend .z-depth-1;
-  background-color: transparent;
+  background-color: white;
   width: 100%;
   height: $navbar-height-mobile;
   line-height: $navbar-line-height-mobile;
@@ -26,7 +26,8 @@ nav {
   i,
   [class^="mdi-"], [class*="mdi-"],
   i.material-icons {
-    display: block;
+    display: inline-block;
+    vertical-align: bottom;
     font-size: 24px;
     height: $navbar-height-mobile;
     line-height: $navbar-line-height-mobile;
@@ -35,6 +36,7 @@ nav {
   .nav-wrapper {
     position: relative;
     height: 100%;
+    border-top: solid 1px #f0f8ff;
   }
 
   @media #{$large-and-up} {
@@ -191,6 +193,7 @@ nav {
   position: absolute;
   height: $navbar-height-mobile;
   z-index: 997;
+  width: 100%;
 
   nav {
     position: fixed;
@@ -201,7 +204,7 @@ nav {
     min-height: $navbar-height;
   }
   nav, nav .nav-wrapper i, nav a.button-collapse, nav a.button-collapse i {
-    height: $navbar-height;
+    height: auto;
     line-height: $navbar-line-height;
   }
   .navbar-fixed {

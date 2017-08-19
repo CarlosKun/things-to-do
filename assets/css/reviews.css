@@ -1,0 +1,13 @@
+.reviews .carousel-item {
+  width: 500px;
+}
+.reviews .carousel-item .card-content {
+  position: absolute;
+  top: 12%;
+  text-align: center;
+  color: initial;
+}
+.reviews .carousel-item .card-reviews {
+  text-align: center;
+  border: 1px solid rgba(160,160,160,0.2);
+}
