@@ -1,24 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Things todo</title>
-    <link rel="stylesheet" href="assets/sass/materialize.css">
-    <link rel="stylesheet" href="assets/css/custom.css">
-    <script src="https://use.fontawesome.com/7e598d2f06.js"></script>
-</head>
-<body>
-
-<div class="navbar-fixed">
-    <nav>
-        <div class="nav-wrapper">
-            <a href="#" class="brand-logo">Things to do</a>
-            <ul id="nav-mobile" class="right hide-on-med-and-down">
-                <li><a href="#!">Iniciar sesion</a></li>
-            </ul>
-        </div>
-    </nav>
-</div>
+<?php include 'partials/header.php'?>
 
 <div class="slider">
     <ul class="slides">
@@ -63,7 +43,7 @@
                 </a>
             </div>
             <div class="col s12 m3 l3 attraction">
-                <a href="puerto-vallarta.html">
+                <a href="single_destination.php">
                     <div class="img-destination-wrapper">
                         <img src="https://cdn.getyourguide.com/img/location_img-308-3944880789-87.jpg" alt="">
                         <div class="opacity">
@@ -210,18 +190,4 @@
     </div>
 </div>
 
-<footer class="page-footer">
-<div class="footer-copyright">
-    <div class="container">
-        © 2017 Copyright Things to do
-        <a class="grey-text text-lighten-4 right" href="#!">Privacy Policy</a>
-    </div>
-</div>
-</footer>
-
-<script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
-<script src="assets/js/bin/materialize.min.js"></script>
-<script src="assets/custom/js/scripts-materialize.js"></script>
-<script src="assets/js/custom.js"></script>
-</body>
-</html>
+<?php include 'partials/footer.php';

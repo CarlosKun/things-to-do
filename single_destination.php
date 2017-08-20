@@ -1,27 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Things todo</title>
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <link rel="stylesheet" href="assets/sass/materialize.css">
-    <link rel="stylesheet" href="assets/css/custom.css">
-    <link rel="stylesheet" href="assets/css/style.css">
-    <script src="https://use.fontawesome.com/7e598d2f06.js"></script>
-
-</head>
-<body>
-
-<div class="navbar-fixed">
-    <nav id="main-nav">
-        <div class="nav-wrapper">
-            <a href="#" class="brand-logo">Things to do</a>
-            <ul id="nav-mobile" class="right hide-on-med-and-down">
-                <li><a href="#!">Iniciar sesion</a></li>
-            </ul>
-        </div>
-    </nav>
-</div>
+<?php include "partials/header.php"; ?>
 
 <div class="slider">
     <ul class="slides">
@@ -176,20 +153,4 @@
     </div>
 </div>
 
-<footer class="page-footer">
-    <div class="footer-copyright">
-        <div class="container">
-            © 2017 Copyright Things to do
-            <a class="grey-text text-lighten-4 right" href="#!">Privacy Policy</a>
-        </div>
-    </div>
-</footer>
-
-<script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
-<script src="assets/js/bin/materialize.min.js"></script>
-<script src="assets/custom/js/scripts-materialize.js"></script>
-<script src="assets/js/custom.js"></script>
-
-
-</body>
-</html>
+<?php include 'partials/footer.php';
