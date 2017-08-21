@@ -316,6 +316,9 @@
                 </div>
             </div>
 
+            <?php /* CAROUSEL REVIEWS */ ?>
+
+
         </div>
     </div>
 </div>

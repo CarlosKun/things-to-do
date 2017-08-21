@@ -3,17 +3,26 @@
   text-align: right;
   height: 30px;
 }
-.top-nav ul {
+.top-nav .social-menu {
+  float: left;
+}
+.top-nav .social-menu li {
+  height: 30px;
+}
+.top-nav .social-menu li a {
+  height: 30px;
+}
+.top-nav .secudary-menu {
   float: right;
   margin: 0;
   height: 30px;
 }
-.top-nav ul li {
+.top-nav .secudary-menu li {
   height: 30px;
   line-height: 30px;
   display: inline-block;
 }
-.top-nav ul li a i {
+.top-nav .secudary-menu li a i {
   padding: 0 5px;
   height: 30px;
   line-height: 30px;

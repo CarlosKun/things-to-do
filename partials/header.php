@@ -23,7 +23,15 @@
 <div class="navbar-fixed">
     <nav>
         <div class="top-nav">
-            <ul>
+            <ul class="social-menu">
+                <li><a href="#!"><i class="fa fa-facebook-official"></i></a></li>
+                <li><a href="#!"><i class="fa fa-twitter"></i></a></li>
+                <li><a href="#!"><i class="fa fa-instagram"></i></a></li>
+                <li><a href="#!"><i class="fa fa-youtube"></i></a></li>
+                <li><a href="#!"><i class="fa fa-rss"></i></a></li>
+                <li><a href="#!"><i class="fa fa-snapchat-ghost"></i></a></li>
+            </ul>
+            <ul class="secudary-menu">
                 <li><a href="#!"><i class="material-icons">phone_in_talk</i>322 5165 89 59</a></li>
             </ul>
         </div>
@@ -31,8 +39,8 @@
             <a href="#" class="brand-logo"></a>
             <ul id="nav-mobile" class="right hide-on-med-and-down">
                 <li><a href="#!">Contact us</a></li>
-                <li><a href="#!"><i class="material-icons">account_circle</i>Iniciar sesion</a></li>
-                <li><a href="#!"><i class="material-icons">language</i>ES</a></li>
+                <li><a href="#!"><i class="fa fa-user-circle"></i> Iniciar sesion</a></li>
+                <li><a href="#!"><i class="fa fa-language"></i> ES</a></li>
             </ul>
         </div>
     </nav>
