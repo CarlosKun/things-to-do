@@ -15,9 +15,10 @@
     </div>
 </footer>
 
-<script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
 <script src="assets/js/bin/materialize.min.js"></script>
-<script src="assets/custom/js/scripts-materialize.js"></script>
+<script src="assets/js/scripts-materialize.js"></script>
+<script src="/assets/js/libs/jquery.bxslider.min.js"></script>
 <script src="assets/js/custom.js"></script>
 </body>
 </html>

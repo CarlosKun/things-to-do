@@ -13,6 +13,7 @@
     <title>Things todo</title>
     <link rel="stylesheet" href="assets/sass/materialize.css">
     <link rel="stylesheet" href="assets/css/custom.css">
+    <link rel="stylesheet" href="/assets/css/libs/jquery.bxslider.css">
     <script src="https://use.fontawesome.com/7e598d2f06.js"></script>
 </head>
 <body>
