@@ -1,13 +1,13 @@
-.reviews .carousel-item {
-  width: 500px;
-}
-.reviews .carousel-item .card-content {
-  position: absolute;
-  top: 12%;
+.carousel.reviews {
   text-align: center;
-  color: initial;
 }
-.reviews .carousel-item .card-reviews {
+.carousel.reviews .card-content img {
+  width: 125px;
+  -webkit-border-radius: 100%;
+  -moz-border-radius: 100%;
+  border-radius: 100%;
+}
+.carousel.reviews .card-action {
+  color: #ffc203;
   text-align: center;
-  border: 1px solid rgba(160,160,160,0.2);
 }

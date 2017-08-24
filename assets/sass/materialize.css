@@ -3259,7 +3259,7 @@ html {
   line-height: 1.5;
   font-family: "Roboto", sans-serif;
   font-weight: normal;
-  color: #8a8a8a; }
+  color: #4E4E4F; }
   @media only screen and (min-width: 0) {
     html {
       font-size: 14px; } }
@@ -3288,19 +3288,19 @@ h2 {
   margin: 12.5px 0 10px 0; }
 
 h3 {
-  font-size: 2.92rem;
+  font-size: 24px;
   line-height: 110%;
-  margin: 1.46rem 0 1.168rem 0; }
+  margin: 12px 0 9.6px 0; }
 
 h4 {
-  font-size: 2.28rem;
+  font-size: 20px;
   line-height: 110%;
-  margin: 1.14rem 0 0.912rem 0; }
+  margin: 10px 0 8px 0; }
 
 h5 {
-  font-size: 1.64rem;
+  font-size: 18px;
   line-height: 110%;
-  margin: 0.82rem 0 0.656rem 0; }
+  margin: 9px 0 7.2px 0; }
 
 h6 {
   font-size: 1rem;

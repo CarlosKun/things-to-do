@@ -11,10 +11,12 @@
 <head>
     <meta charset="UTF-8">
     <title>Things todo</title>
-    <link rel="stylesheet" href="assets/sass/materialize.css">
-    <link rel="stylesheet" href="assets/css/custom-nav.css">
+    <link rel="stylesheet" href="/assets/sass/materialize.css">
+    <link rel="stylesheet" href="/assets/css/custom-nav.css">
     <link rel="stylesheet" href="/assets/css/libs/jquery.bxslider.css">
-    <link rel="stylesheet" href="assets/css/custom.css">
+    <link rel="stylesheet" href="/assets/css/style.css">
+    <link rel="stylesheet" href="/assets/css/custom.css">
+    <link rel="stylesheet" href="/assets/css/reviews.css">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <script src="https://use.fontawesome.com/7e598d2f06.js"></script>
 </head>

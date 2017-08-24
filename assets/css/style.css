@@ -1,3 +1,6 @@
+/* ---------------------- */
+/*       GENERALES        */
+/* ---------------------- */
 .things-side-nav {
   padding: 10px;
 }
@@ -8,4 +11,21 @@
   width: 100%;
   text-align: left;
   padding: 10px;
+}
+.c-caption {
+  position: absolute;
+  top: 50%;
+  color: #fff;
+  padding: 20px;
+  font-size: 40px;
+  background-color: rgba(0,0,0,0.7);
+}
+.c-caption span {
+  text-shadow: 0 1px #d3d3d3;
+}
+.see-more {
+  padding: 15px;
+  background-color: #039be5;
+  color: #fff;
+  border-radius: 30px;
 }
