@@ -22,17 +22,34 @@
 
 <div class="row">
     <div class="col s12 m4 l3">
-        <ul class="collapsible" data-collapsible="expandable">
+        <ul class="collapsible side-collapse" data-collapsible="accordion">
             <li>
-                <div class="collapsible-header active"><i class="material-icons">filter_drama</i>Que hacer en Puerto Vallarta</div>
-                <div class="collapsible-body"><span>Lorem ipsum dolor sit amet.</span></div>
+                <div class="collapsible-header active">Things to do En Puerto Vallarta<i class="material-icons">keyboard_arrow_down</i></div>
+                <div class="collapsible-body">
+                    <ul>
+                        <a href="#!"><li>Actividades</li></a>
+                        <a href="#!"><li>Tours</li></a>
+                        <a href="#!"><li>Deportes acuaticos</li></a>
+                        <a href="#!"><li>Snorkel</li></a>
+                        <a href="#!"><li>Tours historicos y culturales</li></a>
+                        <a href="#!"><li>Tours de aventuras y naturaleza</li></a>
+                    </ul>
+                </div>
             </li>
             <li>
-                <div class="collapsible-header"><i class="material-icons">place</i>Atracciones en Puerto Vallarta</div>
-                <div class="collapsible-body"><span>Lorem ipsum dolor sit amet.</span></div>
+                <div class="collapsible-header">Las mejores atracciones <i class="material-icons">keyboard_arrow_down</i></div>
+                <div class="collapsible-body">
+                    <ul>
+                        <li><a href="#!">Actividades</a></li>
+                        <li><a href="#!">Actividades</a></li>
+                        <li><a href="#!">Actividades</a></li>
+                        <li><a href="#!">Actividades</a></li>
+                        <li><a href="#!">Actividades</a></li>
+                    </ul>
+                </div>
             </li>
             <li>
-                <div class="collapsible-header"><i class="material-icons">whatshot</i>Otros Destinos</div>
+                <div class="collapsible-header">Destinos relacionados <i class="material-icons">keyboard_arrow_down</i></div>
                 <div class="collapsible-body"><span>Lorem ipsum dolor sit amet.</span></div>
             </li>
         </ul>
