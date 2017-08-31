@@ -356,34 +356,52 @@
         </section>
 
         <?php /* what you should know */ ?>
-        <section class="">
+        <section class="section-divider">
             <div class="divider"></div>
             <div class="row">
-                <ul id="tabs-swipe-demo" class="tabs">
-                    <li class="tab col s3"><a class="active" href="#test-swipe-1">Lo que debes saber</a></li>
-                    <li class="tab col s3"><a href="#test-swipe-2">Sobre Puerto Vallarta</a></li>
+                <ul id="know-tabs" class="tabs">
+                    <li class="tab col s6"><a class="active" href="#item-1">Sobre Puerto Vallarta</a></li>
+                    <li class="tab col s6"><a class="" href="#item-2">Lo que debes saber</a></li>
                 </ul>
-                <div id="test-swipe-1" class="col s12">
-                    <div class="col l3">
+                <div id="item-1" class="col s12 description-content">
+                    <p><strong>Puerto Vallarta</strong> has long been a top tourist destination and its beautiful beaches, luxurious hotels, and exciting nightlife continue to draw visitors every year.<br> <br>
+                        When visiting this vibrant city, take some time to do some sightseeing. An experienced guide can make sure your city tour encompasses all the city has to offer. Some popular activities within the city are visiting a <strong>tequila distillery</strong> as well as exploring the communities of <strong>La Conchas</strong>, <strong>El Pitillal</strong>, and <strong>Nogalito</strong>.<br> <br>
+                        For those looking for outdoor adventure, Puerto Vallarta offers many different options such as <strong>sailing</strong>, snorkeling, <strong>dolphin watching</strong>, scuba diving, hiking, horseback riding, and even canopy zip line tours. The mountains, rivers, and coastlines of Puerto Vallarta offer travelers the opportunity to observe and interact with an amazing variety of wildlife. At least five species of <strong>sea turtles</strong> can be found here, and humpback whale sightings are common if you have an experienced guide to take you to the most likely locations.<br> <br>
+                        If you are just looking for relaxing fun in the sun, the <strong>sandy beaches</strong> of Puerto Vallarta are the ideal spot to relax and enjoy spending time in a tropical paradise.<br> <br>
+                        The residents of Puerto Vallarta are famous for their friendly attitude towards visitors and they love to show off the beauty of their city.</p>
+                </div>
+                <div id="item-2" class="col s12 description-content items">
+                    <div class="col l4">
                         <div class="know-item">
-                            <i class="fa fa-info-circle fa-lg"></i> Lang
+                            <i class="fa fa-info-circle fa-lg"></i> Idioma
                             <span>Español</span>
                         </div>
                     </div>
-                    <div class="col l3">
+                    <div class="col l4">
                         <div class="know-item">
-                            <i class="fa fa-money fa-lg"></i> Lang
-                            <span>Pesos</span>
+                            <i class="fa fa-money fa-lg"></i> Moneda
+                            <span>Peso mexicano (MXN)</span>
                         </div>
                     </div>
-                    <div class="col l3">
+                    <div class="col l4">
                         <div class="know-item">
-                            <i class="fa fa-taxi fa-lg"></i> Mejor momento para viajar
+                            <i class="fa fa-globe fa-lg"></i> Franja horaria
+                            <span>UTC (-06:00)</span>
+                        </div>
+                    </div>
+                    <div class="col l4">
+                        <div class="know-item">
+                            <i class="fa fa-phone fa-lg"></i> Prefijo del país
+                            <span>+52</span>
+                        </div>
+                    </div>
+                    <div class="col l4">
+                        <div class="know-item">
+                            <i class="fa fa-clock-o fa-lg"></i> Mejor momento para visitar
                             <span>Todo el año</span>
                         </div>
                     </div>
                 </div>
-                <div id="test-swipe-2" class="col s12"></div>
             </div>
             <div class="divider"></div>
         </section>

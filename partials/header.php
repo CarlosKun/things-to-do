@@ -41,6 +41,7 @@
         <div class="nav-wrapper">
             <a href="#" class="brand-logo"></a>
             <ul id="nav-mobile" class="right hide-on-med-and-down">
+                <li><a href="/">Home</a></li>
                 <li><a href="#!">Contact us</a></li>
                 <li><a href="#!"><i class="fa fa-user-circle"></i> Iniciar sesion</a></li>
                 <li><a href="#!"><i class="fa fa-language"></i> ES</a></li>

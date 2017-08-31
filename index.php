@@ -3,7 +3,31 @@
 <div class="slider">
     <ul class="slides">
         <li>
-            <div class="opacity"></div>
+            <div class="booking-header center-align">
+                <h5>¡Reserva y viaja por el mundo!</h5>
+                <div class="row">
+                    <form action="" class="col s12">
+                        <div class="input-field col s12">
+                            <i class="material-icons prefix">location_on</i>
+                            <input id="icon_prefix" type="text" class="validate">
+                            <label for="icon_prefix">Pais, destino, atraccion</label>
+                        </div>
+                        <div class="input-field col s6">
+                            <i class="material-icons prefix">date_range</i>
+                            <input id="date_range" type="text" class="datepicker">
+                            <label for="date_range">Desde</label>
+                        </div>
+                        <div class="input-field col s6">
+                            <i class="material-icons prefix">date_range</i>
+                            <input id="date_range" type="text" class="datepicker">
+                            <label for="date_range">Hasta</label>
+                        </div>
+                        <button class="btn waves-effect waves-light" type="submit" name="action">Ver disponibilidad
+                            <i class="material-icons right">search</i>
+                        </button>
+                    </form>
+                </div>
+            </div>
             <img src="assets/images/header.jpg"> <!-- random image -->
         </li>
     </ul>

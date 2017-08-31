@@ -18,7 +18,7 @@
 }
 
 .advantages .advantage i{
-    color: #aeea00;
+    color: #00bcd4;
 }
 
 .advantages .advantage span{
@@ -43,7 +43,7 @@
     color: white;
     padding: 3px 10px;
     font-size: 17px;
-    background-color: rgba(0,0,0,.5);
+    background-color: rgba(34, 44, 48, 0.7);
 }
 .attractions .attraction .img-destination-wrapper img{
     width: 100%;

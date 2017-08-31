@@ -1686,7 +1686,8 @@ a {
  */
 a:active,
 a:hover {
-  outline: 0; }
+  outline: 0;
+  background-color: rgba(0, 0, 0, 0.1); }
 
 /* Text-level semantics
    ========================================================================== */
@@ -3092,7 +3093,7 @@ nav ul a span.badge {
         left: 100%; } }
 
 nav {
-  color: #039be5;
+  color: #222c30;
   background-color: white;
   width: 100%;
   height: 56px;
@@ -3107,7 +3108,7 @@ nav {
       position: relative;
       line-height: normal; }
   nav a {
-    color: #039be5; }
+    color: #222c30; }
   nav i,
   nav [class^="mdi-"], nav [class*="mdi-"],
   nav i.material-icons {
@@ -3134,7 +3135,7 @@ nav {
       line-height: 56px; }
   nav .brand-logo {
     position: absolute;
-    color: #039be5;
+    color: #222c30;
     display: inline-block;
     font-size: 2.1rem;
     padding: 0;
@@ -3177,7 +3178,7 @@ nav {
     nav ul a {
       transition: background-color .3s;
       font-size: 1rem;
-      color: #039be5;
+      color: #222c30;
       display: block;
       padding: 0 15px;
       cursor: pointer; }
@@ -3212,7 +3213,7 @@ nav {
         color: rgba(255, 255, 255, 0.7);
         transition: color .3s; }
       nav .input-field label.active i {
-        color: #039be5; }
+        color: #222c30; }
 
 .navbar-fixed {
   position: absolute;
@@ -3259,7 +3260,7 @@ html {
   line-height: 1.5;
   font-family: "Roboto", sans-serif;
   font-weight: normal;
-  color: #4E4E4F; }
+  color: #222c30; }
   @media only screen and (min-width: 0) {
     html {
       font-size: 14px; } }
@@ -3660,7 +3661,7 @@ small {
     position: absolute;
     bottom: 0;
     height: 2px;
-    background-color: #039be5;
+    background-color: rgba(0, 188, 212, 0.3);
     will-change: left, right; }
 
 @media only screen and (max-width: 992px) {
@@ -3766,18 +3767,18 @@ small {
 
 .btn:focus, .btn-large:focus,
 .btn-floating:focus {
-  background-color: #1d7d74; }
+  background-color: #008fa1; }
 
 .btn, .btn-large {
   text-decoration: none;
   color: #fff;
-  background-color: #26a69a;
+  background-color: #00bcd4;
   text-align: center;
   letter-spacing: .5px;
   transition: .2s ease-out;
   cursor: pointer; }
   .btn:hover, .btn-large:hover {
-    background-color: #2bbbad; }
+    background-color: #00d3ee; }
 
 .btn-floating {
   display: inline-block;
@@ -4153,7 +4154,8 @@ button.btn-floating {
   display: none;
   border-bottom: 1px solid #ddd;
   box-sizing: border-box;
-  padding: 2rem; }
+  padding: 2rem;
+  background-color: #f7f7f7; }
 
 .side-nav .collapsible,
 .side-nav.fixed .collapsible {
@@ -5340,9 +5342,9 @@ input[type=range]:focus::-ms-fill-upper {
     .side-nav li > a.btn-flat {
       color: #343434; }
     .side-nav li > a.btn:hover, .side-nav li > a.btn-large:hover, .side-nav li > a.btn-large:hover {
-      background-color: #2bbbad; }
+      background-color: #00d3ee; }
     .side-nav li > a.btn-floating:hover {
-      background-color: #26a69a; }
+      background-color: #00bcd4; }
     .side-nav li > a > i, .side-nav li > a > [class^="mdi-"], .side-nav li > a li > a > [class*="mdi-"], .side-nav li > a > i.material-icons {
       float: left;
       height: 48px;
@@ -6199,7 +6201,7 @@ input[type=range]:focus::-ms-fill-upper {
 
 @media (min-height: 38.875em) {
   .picker--opened .picker__frame {
-    top: 10%;
+    top: 25%;
     bottom: auto; } }
 @media only screen and (min-width: 601px) {
   .picker__box {
